@@ -121,7 +121,4 @@ thr.dt2 <- thr.dt2 %>% mutate(pred.mol = pred.pcv*thr.est2/growth.k2 + thr.int2)
 thr.plot2 <- ggplot(thr.dt2) + geom_point(aes(x=pred.pcv, y=mol)) + geom_line(aes(x=pred.pcv, y=pred.mol))
 thr.plot2
 
-
-
-
 ### need to fit full equation using metabolomics data.....
